@@ -10,7 +10,8 @@
   "dependencies": {
     "five": "^0.8.0",
     "johnny": "^2.0.0",
-    "johnny-five": "^0.13.0"
+    "johnny-five": "^0.13.0",
+    "mqtt": "^2.15.1"
   },
   "devDependencies": {},
   "repository": {
