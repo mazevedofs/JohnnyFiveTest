@@ -45,7 +45,7 @@ var board = new five.Board({
           console.log("Hold");
         });
 
-        var client = mqtt.connect("mqtt://test.mosquitto.org");
+        var client = mqtt.connect("mqtt://localhost");
 
         client.on("connect", function(){
           console.log("mqtt connectado");
